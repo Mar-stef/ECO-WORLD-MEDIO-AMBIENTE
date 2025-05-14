@@ -1238,3 +1238,97 @@ img {
     font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 767px) {
+  /* Header */
+  .header-area .academy-main-menu .classy-navbar {
+    padding: 0;
+    padding-left: 2em;
+  }
+  .header-area .academy-main-menu .calling-info .call-center a span {
+    display: none;
+  }
+
+  /* Hero Slides */
+  .hero-slides .single-hero-slide {
+    height: 600px;
+  }
+  .hero-slides .single-hero-slide h2 {
+    font-size: 30px;
+  }
+  .hero-slides .single-hero-slide h4 {
+    font-size: 18px;
+  }
+  .hero-slides .owl-prev,
+  .hero-slides .owl-next {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -20px;
+  }
+
+  /* Features */
+  .top-features-area {
+    margin-bottom: -115px;
+  }
+  .top-features-area .features-content .single-top-features {
+    border-right: none;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+  /* Cursos */
+  .single-top-popular-course .popular-course-content,
+  .single-top-popular-course .popular-course-thumb {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .popular-course-details-area .single-top-popular-course .popular-course-content,
+  .popular-course-details-area .single-top-popular-course .popular-course-thumb {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .popular-course-details-area .single-top-popular-course .popular-course-thumb {
+    height: 400px;
+  }
+
+  /* Partners */
+  .partners-logo a {
+    max-width: 40px;
+  }
+
+  /* Call to Action */
+  .call-to-action-area .cta-content h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  /* Breadcrumb */
+  .breadcumb-area .bradcumbContent {
+    width: 280px;
+  }
+  .breadcumb-area .bradcumbContent h2 {
+    font-size: 24px;
+  }
+
+  /* Blog */
+  .academy-blog-sidebar {
+    margin-top: 100px;
+  }
+
+  /* Contacto */
+  .contact-content {
+    padding: 50px 30px;
+  }
+  .contact-content .contact-form-area {
+    margin-top: 50px;
+  }
+
+  /* Tabs */
+  .academy-tabs-content .nav-tabs .nav-link {
+    padding: 0 10px;
+  }
+}
